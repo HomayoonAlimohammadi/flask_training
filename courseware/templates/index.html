@@ -5,13 +5,16 @@
 <body>
   <h1>Welcome to the Courseware!</h1>
   <br />
+  {% if message %} 
+    <span style="color: red;">{{ message }}</span><br/><br/>
+  {% endif %} 
   <a href="/students"><b>Students</b></a
   ><br />
   <a href="/courses"><b>Courses</b></a
   ><br />
   <a href="/instructors"><b>Instructors</b></a>
   <br/><br/>
-  <a href="/students/add"><b>Add a Student</b></a>
-  <a href="/instructors/add"><b>Add an Instructor</b></a>
-  <a href="/courses/add"><b>Add a Course</b></a>
+  <a href="/students/add"><b>Add a Student</b></a><br/>
+  <a href="/instructors/add"><b>Add an Instructor</b></a><br/>
+  <a href="/courses/add"><b>Add a Course</b></a><br/>
 </body>

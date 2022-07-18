@@ -36,7 +36,7 @@ def list_view(model: str):
                 record.append((key, value))
         res.append(record)
     print(res)
-    return render_template("list_view.html", elements=res)
+    return render_template("list_models.html", elements=res)
 
 
 @app.route("/<model>/add", methods=["GET", "POST"])
@@ -58,7 +58,6 @@ def add_student_view(model):
 
     elements = add_model(model, elements, form, DATA_PATH)
     return render_template(
-        "list_models.html",
+        "index.html",
         message=f"Added {model} successfully!",
-        elements=elements,
     )

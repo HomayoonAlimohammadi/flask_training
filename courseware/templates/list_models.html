@@ -4,9 +4,8 @@
   
   <body>
     {% if message %} 
-        {{ message }}
+        <span style="color: red;">{{ message }}</span><br/><br/>
     {% endif %} 
-    <br/><br/>
     {% if elements %}
         {% for element in elements %} 
             {{ element }}<br/>
@@ -15,5 +14,7 @@
         <p>No students available!</p>
     {% endif %} 
     <br/>
+
+    <b><a href="../">Home</a></b>
   </body>
   

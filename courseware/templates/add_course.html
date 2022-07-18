@@ -5,10 +5,12 @@
   <body>
     <h2>Add a Course:</h2>
     {% if message %}
-      {{ message }}
+      <span style="color: red;">{{ message }}</span><br/><br/>
     {% endif %}
     <form method="post">
       Name: <input type="text" name="first_name" /><br />
       <input type="submit" />
     </form>
+    <b><a href="../../">Home</a></b>
+
   </body>

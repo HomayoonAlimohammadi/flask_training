@@ -1,7 +1,1 @@
-[
-    {
-        "id": "b26cd409-9ba6-441f-ab63-3dd635529933",
-        "first_name": "homayoon",
-        "last_name": "alimohammadi" 
-    }
-]
+[{"id": "b26cd409-9ba6-441f-ab63-3dd635529933", "first_name": "homayoon", "last_name": "alimohammadi", "courses": []}, {"id": "1e0e78d6-9866-4f73-87ad-4e181814f1e0", "first_name": "nooshin", "last_name": "rajabi", "courses": []}]
