@@ -1,0 +1,15 @@
+<head>
+  <title>Add member</title>
+</head>
+
+<body>
+  <h2>Add a Member:</h2>
+  {% if message %}
+    {{ message }}
+  {% endif %}
+  <form method="post">
+    First name: <input type="text" name="first_name" /><br />
+    Last name: <input type="text" name="last_name" /><br />
+    <input type="submit" />
+  </form>
+</body>

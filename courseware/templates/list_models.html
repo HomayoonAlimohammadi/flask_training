@@ -1,0 +1,19 @@
+<head>
+    <title>{{ elements }}</title>
+  </head>
+  
+  <body>
+    {% if message %} 
+        {{ message }}
+    {% endif %} 
+    <br/><br/>
+    {% if elements %}
+        {% for element in elements %} 
+            {{ element }}<br/>
+        {% endfor %}
+    {% else %}
+        <p>No students available!</p>
+    {% endif %} 
+    <br/>
+  </body>
+  

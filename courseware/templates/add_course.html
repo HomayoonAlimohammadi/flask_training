@@ -1,0 +1,14 @@
+<head>
+    <title>Add Course</title>
+  </head>
+  
+  <body>
+    <h2>Add a Course:</h2>
+    {% if message %}
+      {{ message }}
+    {% endif %}
+    <form method="post">
+      Name: <input type="text" name="first_name" /><br />
+      <input type="submit" />
+    </form>
+  </body>
