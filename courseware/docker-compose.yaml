@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  app:
+    build: .
+    environment:
+      FLASK_ENV: development
+    ports:
+      - 8000:80
+    volumes:
+      - .:/courseware
